@@ -1,5 +1,5 @@
 # SureStart
-Edited for Action Items for 2/10/21
+Edited for Action Items for 2/11/21
 
 
 ## Reflections
@@ -17,3 +17,6 @@ Through the SureStart program, I hope to further reinforce my skills in Machine 
 
 *2/11/21*
 The dataset I found is hosted at https://www.kaggle.com/techsash/waste-classification-data. The dataset contains 22,500 images, split between images of "organic" food and images of "recyclable" materials. The goal of this is to mirror a real-world problem of waste sorting. Ideally, it would be possible to develop an algorithm that could take a single stream of waste, and could identify recyclable and compostable items in it before separating those items from the stream. Using this data, I would hope to build a rudimentary version of this with only two classes, being "recyclable" or "non-recyclable". To do this, I would plan on using a Convolutional Neural Network in order to classify images in one of the two given groups. For this problem, a CNN would be helpful in being much less computationally intensive, which would allow a theoretical future model to be run inexpensively in local waste sorting centers.  
+
+*2/11/21*
+I was unable to make the chrome extension that moves from Kaggle to Github to work correctly, so I downloaded the notebook from Kaggle and uploaded the notebook here.  
