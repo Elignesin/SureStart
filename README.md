@@ -13,4 +13,7 @@ Through the SureStart program, I hope to further reinforce my skills in Machine 
 
 *2/10/21*
 1. "Tensors" are multidimensional arrays used to represent graph edges in some neural networks. These arrays are mathematical objects representing physical entities, like vectors, with both magnitude and multiple directions. Tensors are often used in machine learning because they can represent multi-dimensional space with a simple array of numbers, which a computer can work with.  
-2. Unfortunately, I was having issues downloading tensorflow on my machine, so I'm not sure what you're looking for here.
+2. Unfortunately, I was having issues downloading tensorflow on my machine, so I'm not sure what you're looking for here.  
+
+*2/11/21*
+The dataset I found is hosted at ... This data could be used to ... using ... (model here).
