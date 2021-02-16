@@ -23,3 +23,7 @@ I was unable to make the chrome extension that moves from Kaggle to Github to wo
 
 *2/15/21*
 I have uploaded my adapted version of the notebook found at https://www.kaggle.com/kanncaa1/convolutional-neural-network-cnn-tutorial, which was augmented with the full training dataset from the MNIST database (linked at http://yann.lecun.com/exdb/mnist/).  
+
+*2/16/21*
+1. Machine Learning and AI were used in the design of "Survival of the Best Fit" in order to demonstrate the issue with opaque hiring algorithms and how human biases, such as those on race or gender, can affect the training of machine learning models such that the models themselves are biased.  
+2. One real-world machine learning model that is likely biased is the facial recognition technology often used in Police Departments. Such models are likely biased because of historic and current biases in policing in minority communities, which is given as training data to the models to determine who is a "criminal" or not. Some thoughts on how this might be resolved are to train the model on more complete datasets, or to attempt to combat the historical biases in policing by changing how the model weights various features in the data. 
