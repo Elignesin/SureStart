@@ -1,5 +1,5 @@
 # SureStart
-Edited for Action Items for 2/16/21
+Edited for Action Items for 2/17/21
 
 
 ## Reflections
@@ -26,4 +26,7 @@ I have uploaded my adapted version of the notebook found at https://www.kaggle.c
 
 *2/16/21*
 1. Machine Learning and AI were used in the design of "Survival of the Best Fit" in order to demonstrate the issue with opaque hiring algorithms and how human biases, such as those on race or gender, can affect the training of machine learning models such that the models themselves are biased.  
-2. One real-world machine learning model that is likely biased is the facial recognition technology often used in Police Departments. Such models are likely biased because of historic and current biases in policing in minority communities, which is given as training data to the models to determine who is a "criminal" or not. Some thoughts on how this might be resolved are to train the model on more complete datasets, or to attempt to combat the historical biases in policing by changing how the model weights various features in the data. 
+2. One real-world machine learning model that is likely biased is the facial recognition technology often used in Police Departments. Such models are likely biased because of historic and current biases in policing in minority communities, which is given as training data to the models to determine who is a "criminal" or not. Some thoughts on how this might be resolved are to train the model on more complete datasets, or to attempt to combat the historical biases in policing by changing how the model weights various features in the data.  
+
+*2/17/21*
+Convolutional Neural Networks differ from Fully Connected Neural Networks in their scope, construction, and purpose. The primary difference is in layering: the convolutional and pooling layers in CNNs iterate through the image, breaking it up into pieces and analyzing those pieces before combining the results together and analyzing those. Those results are then fed into a "fully connected" layer, from which classifications are decided upon. Fully Connected Neural Networks, on the other hand, do not have this structure, and all data is passed through all neurons. At higher input resolutions, Fully Connected Neural Networks are too computationally expensive to train and run on quickly and efficiently. As such, CNNs are particularly useful for computer vision tasks, such as image classification and image segmentation, since they can be trained relatively inexpensively and have fewer parameters to select.   
