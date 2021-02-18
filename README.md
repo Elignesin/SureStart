@@ -1,5 +1,5 @@
 # SureStart
-Edited for Action Items for 2/17/21
+Edited for Action Items for 2/18/21
 
 
 ## Reflections
@@ -31,3 +31,5 @@ I have uploaded my adapted version of the notebook found at https://www.kaggle.c
 
 *2/17/21*
 Convolutional Neural Networks differ from Fully Connected Neural Networks in their scope, construction, and purpose. The primary difference is in layering: the convolutional and pooling layers in CNNs iterate through the image, breaking it up into pieces and analyzing those pieces before combining the results together and analyzing those. Those results are then fed into a "fully connected" layer, from which classifications are decided upon. Fully Connected Neural Networks, on the other hand, do not have this structure, and all data is passed through all neurons. At higher input resolutions, Fully Connected Neural Networks are too computationally expensive to train and run on quickly and efficiently. As such, CNNs are particularly useful for computer vision tasks, such as image classification and image segmentation, since they can be trained relatively inexpensively and have fewer parameters to select.   
+
+*2/18/21* I added my own version of a notebook with a Convolutional Neural Network for predicting MNIST digits to this repository. I have also included some graphs for training and validation loss and accuracy.
