@@ -23,7 +23,7 @@ I was unable to make the chrome extension that moves from Kaggle to Github to wo
 
 *2/15/21*
 I have uploaded my adapted version of the notebook found at https://www.kaggle.com/kanncaa1/convolutional-neural-network-cnn-tutorial, which was augmented with the full training dataset from the MNIST database (linked at http://yann.lecun.com/exdb/mnist/).  
-**Edit: I made a second version of this notebook (v2) on 2/17, which changed the graphing to include validation and training accuracy and loss**  
+**Edit: I made a second version of this notebook (v2) on 2/17, which changed the graphing to include validation and training accuracy and loss. From this, I concluded that the model probably should have trained using more epochs.**  
 
 *2/16/21*
 1. Machine Learning and AI were used in the design of "Survival of the Best Fit" in order to demonstrate the issue with opaque hiring algorithms and how human biases, such as those on race or gender, can affect the training of machine learning models such that the models themselves are biased.  
