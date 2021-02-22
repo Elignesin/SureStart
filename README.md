@@ -1,5 +1,5 @@
 # SureStart
-Edited for Action Items for 2/19/21
+Edited for Action Items for 2/22/21
 
 
 ## Reflections
@@ -34,4 +34,6 @@ Convolutional Neural Networks differ from Fully Connected Neural Networks in the
 
 *2/18/21* I added my own version of a notebook with a Convolutional Neural Network for predicting MNIST digits to this repository. I have also included graphs for training and validation loss and accuracy.
 
-*2/19/21* This action item was actually completed on 2/20/21, but no matter. I added my own notebook from Google Colab with a basic image classification model for classifying dogs and cats, which was built from and modified from the activity found at https://keras.io/examples/vision/image_classification_from_scratch/. I also included some graphs for training and validation loss and accuracy.
+*2/19/21* This action item was actually completed on 2/20/21, but no matter. I added my own notebook from Google Colab with a basic image classification model for classifying dogs and cats, which was built from and modified from the activity found at https://keras.io/examples/vision/image_classification_from_scratch/. I also included some graphs for training and validation loss and accuracy.  
+
+*2/22/21* I have added the notebook for the action item on February 22, including a CNN for classifying facial images by gender (I chose to do only by gender because of the length of time for which the CNN took to train). This was modeled from the activity at https://www.kaggle.com/thanaphatj/gender-classification-of-facial-images-cnn, but I largely built the CNN using what I'd learned from the previous week.  
