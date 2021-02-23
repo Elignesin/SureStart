@@ -1,5 +1,5 @@
 # SureStart
-Edited for Action Items for 2/22/21
+Edited for Action Items for 2/23/21
 
 
 ## Reflections
@@ -37,3 +37,5 @@ Convolutional Neural Networks differ from Fully Connected Neural Networks in the
 *2/19/21* This action item was actually completed on 2/20/21, but no matter. I added my own notebook from Google Colab with a basic image classification model for classifying dogs and cats, which was built from and modified from the activity found at https://keras.io/examples/vision/image_classification_from_scratch/. I also included some graphs for training and validation loss and accuracy.  
 
 *2/22/21* I have added the notebook for the action item on February 22, including a CNN for classifying facial images by gender (I chose to do only by gender because of the length of time for which the CNN took to train). This was modeled from the activity at https://www.kaggle.com/thanaphatj/gender-classification-of-facial-images-cnn, but I largely built the CNN using what I'd learned from the previous week.  
+
+*2/23/21* The Rectified Linear Unit , or ReLU, is is the activation function most often used in the hidden layers of many Neural Networks. It has become the standard, as opposed to Sigmoid or Tanh activation functions, because those functions satruate too easily and, as such, are anti-useful for multi-layer models due to their vanishing gradients (after a certain point, due to the saturation, layers no longer receive useful gradient information, and this error is carried through the rest of the model). ReLU, by comparison, is advantageous in that it is nonlinear but acts like a linear function (for positive values, ReLU returns the input value; for negative values, ReLU returns 0). ReLU is particularly advantageous in Neural Networks because it computationally trivial, requiring only a max function (as opposed to the sigmoid/tanh functions need for exponentials). This is especially useful in training deep networks because, due to its linear behaviors, it does not suffer with the gradient vanishing issue of the other functions. ReLU can also be easily extended, allowing for small negative values in some cases (Leaky ReLU), in order to combat the issue wherein the weights update such that the activation function gets stuck in forever outputting 0.0.
