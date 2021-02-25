@@ -1,5 +1,5 @@
 # SureStart
-Edited for Action Items for 2/24/21
+Edited for Action Items for 2/25/21
 
 
 ## Reflections
@@ -40,4 +40,6 @@ Convolutional Neural Networks differ from Fully Connected Neural Networks in the
 
 *2/23/21* The Rectified Linear Unit , or ReLU, is is the activation function most often used in the hidden layers of many Neural Networks. It has become the standard, as opposed to Sigmoid or Tanh activation functions, because those functions satruate too easily and, as such, are anti-useful for multi-layer models due to their vanishing gradients (after a certain point, due to the saturation, layers no longer receive useful gradient information, and this error is carried through the rest of the model). ReLU, by comparison, is advantageous in that it is nonlinear but acts like a linear function (for positive values, ReLU returns the input value; for negative values, ReLU returns 0). ReLU is particularly advantageous in Neural Networks because it computationally trivial, requiring only a max function (as opposed to the sigmoid/tanh functions need for exponentials). This is especially useful in training deep networks because, due to its linear behaviors, it does not suffer with the gradient vanishing issue of the other functions. ReLU can also be easily extended, allowing for small negative values in some cases (Leaky ReLU), in order to combat the issue wherein the weights update such that the activation function gets stuck in forever outputting 0.0.  
 
-*2/24/21* The notebook for today's action item is added to the repository. This noteobok is lightly modeled off of https://hackernoon.com/build-your-first-neural-network-to-predict-house-prices-with-keras-3fb0839680f4, but was largely built on its own. I'm very happy with how this model came out; it is fairly accurate but does not appear to be overfit.
+*2/24/21* The notebook for today's action item is added to the repository. This notebook is lightly modeled off of https://hackernoon.com/build-your-first-neural-network-to-predict-house-prices-with-keras-3fb0839680f4, but was largely built on its own. I'm very happy with how this model came out; it is fairly accurate but does not appear to be overfit.  
+
+*2/25/21* The notebook for today's action item is added to the repository. This notebook is adapted from https://towardsdatascience.com/handling-overfitting-in-deep-learning-models-c760ee047c6e#, and the data in the notebook comes from https://www.kaggle.com/crowdflower/twitter-airline-sentiment.
