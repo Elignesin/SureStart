@@ -42,4 +42,6 @@ Convolutional Neural Networks differ from Fully Connected Neural Networks in the
 
 *2/24/21* The notebook for today's action item is added to the repository. This notebook is lightly modeled off of https://hackernoon.com/build-your-first-neural-network-to-predict-house-prices-with-keras-3fb0839680f4, but was largely built on its own. I'm very happy with how this model came out; it is fairly accurate but does not appear to be overfit.  
 
-*2/25/21* The notebook for today's action item is added to the repository. This notebook is adapted from https://towardsdatascience.com/handling-overfitting-in-deep-learning-models-c760ee047c6e#, and the data in the notebook comes from https://www.kaggle.com/crowdflower/twitter-airline-sentiment.
+*2/25/21* The notebook for today's action item is added to the repository. This notebook is adapted from https://towardsdatascience.com/handling-overfitting-in-deep-learning-models-c760ee047c6e#, and the data in the notebook comes from https://www.kaggle.com/crowdflower/twitter-airline-sentiment.  
+
+*2/26/21* This action item was actually completed on 2/28/21 because of time constraints prior. Both the notebook for upsampling, which came from https://machinelearningmastery.com/upsampling-and-transpose-convolution-layers-for-generative-adversarial-networks/, and the notebook on autoencoding from https://blog.keras.io/building-autoencoders-in-keras.html have been added to the repository.
