@@ -1,5 +1,5 @@
 # SureStart
-Edited for Action Items for 2/25/21
+Edited for Action Items for 3/2/21
 
 
 ## Reflections
@@ -48,4 +48,4 @@ Convolutional Neural Networks differ from Fully Connected Neural Networks in the
 
 *3/1/21* The basic notebook exploring the implementation of the language identifier has been added to the repository, though I did much of the actual implementation on my local machine and that is not added to the repository. This action item also calls for me to think about the ethical implications of large NLP models such as GPT-2. Personally, I believe that such models are no more ethically ambiguous than software for facial recognition or for speech recognition. Each of these models brings with it similar questions, that is: can we create an artificial intelligence that can think like a human, and if we can, should we? In a sense, however, this question is currently open; we don't know if we can create such a model, and the models we have currently are merely amalgamations of human data, structured in such a way so as to make mathematical predictions about human habits. Although it can feel unsettling, and at times it feels intrusive on privacy (though that is a different discussion), I don't believe these concerns currently arise to the point of being ethically challenging to the decision to use such software and deploy it for human consumption.  
 
-*3/2/21* The notebook for today's action item is added to the repository. This model is adapted from https://medium.com/swlh/emotion-detection-using-opencv-and-keras-771260bbd7f7. I did not wind up running the model because, as much as I tried, I could not make the epochs shorter than 4 hours each, and I was unable to run them efficiently on Google Colab. Given this, I will be making an attempt in the future to run and train this model, but not at this moment in time.
+*3/2/21* The notebook for today's action item is added to the repository. This model is adapted from https://medium.com/swlh/emotion-detection-using-opencv-and-keras-771260bbd7f7. I did not wind up running the model because, as much as I tried, I could not make the epochs shorter than 4 hours each, and I was unable to run them efficiently on Google Colab. Given this, I will be making an attempt in the future to run and train this model, but not at this moment in time.  
